@@ -1,0 +1,45 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.DS_Store
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+coverage.json
+htmlcov/
+
+# Environment secrets
+.env
+
+# Coverage artifacts
+coverage.json
+.coverage
+htmlcov/
+
+# Pytest
+.pytest_cache/
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
